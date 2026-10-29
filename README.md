@@ -3,13 +3,10 @@
 # FollowTheTrail: Representation Trajectories for Generalizable Deepfake Detection
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/Transformers-%3E%3D4.45%20%3C5-yellow)](https://huggingface.co/docs/transformers)
-[![PEFT](https://img.shields.io/badge/PEFT-0.13--0.19-blueviolet)](https://huggingface.co/docs/peft)
-[![Backbone](https://img.shields.io/badge/Backbone-DINOv3--Large-6f42c1)](https://github.com/facebookresearch/dinov3)
 ![Status](https://img.shields.io/badge/Status-Research%20Code-lightgrey)
 
-**WACV 2027 submission · Research implementation**
+**Accepted at WACV 2027**
 
 </div>
 
@@ -27,9 +24,7 @@
   - [4. Evaluation](#4-evaluation)
   - [5. Optional Frame Extraction](#5-optional-frame-extraction)
 - [🗂️ Repository Layout](#️-repository-layout)
-- [🔁 Reproducibility](#-reproducibility)
 - [📚 Citation](#-citation)
-- [📄 License](#-license)
 
 ## 🧭 Introduction
 
@@ -46,7 +41,7 @@ This repository contains the DINOv3-Large training entry point, its matching mul
 
 ## ⚙️ Version and Model Details
 
-The version ranges below reflect `requirements.txt`; they are dependency constraints, not a record of a tested lockfile.
+We trained on a NVIDIA A100.
 
 | Component | Version or default |
 |---|---:|
@@ -89,7 +84,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-The first run downloads the pretrained DINOv3 backbone through `timm`. Follow the backbone publisher’s access and model-weight terms.
+The first run downloads the pretrained DINOv3 backbone through `timm`. Please follow the backbone publisher’s access and model-weight terms.
 
 ### 2. Data Preparation
 
@@ -184,27 +179,14 @@ FollowTheTrail/
     └── README.md                 # expected manifest/layout notes
 ```
 
-## 🔁 Reproducibility
-
-- This repository does not include datasets, pretrained weights, or trained checkpoints.
-- Record the command line, random seed, checkpoint, dataset version, preprocessing, and manifest split for each run.
-- Results can vary with dataset processing, split definitions, and software/hardware versions.
-- The included evaluator covers the datasets listed above. Some paper tables use additional benchmark protocols and may require their corresponding data adapters.
 
 ## 📚 Citation
 
 If you use this work, please cite the paper:
 
 ```bibtex
-@misc{nohwal2026followthetrail,
-  title  = {FollowTheTrail: Representation Trajectories for Generalizable Deepfake Detection},
-  author = {Nohwal, Krishna and Soni, Pawan and Kanhangad, Vivek},
-  note   = {WACV 2027 submission},
-  year   = {2026}
-}
+TODO
 ```
-
-## 📄 License
 
 No license has been selected for this code yet. The authors should add their chosen license before public release.
 #
