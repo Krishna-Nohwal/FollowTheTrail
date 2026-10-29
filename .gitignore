@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Datasets, manifests, checkpoints, and experiment outputs
+data/**
+!data/README.md
+checkpoints*/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.csv
+*.tsv
+*.npz
+*.npy
+*.log
+*.pid
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

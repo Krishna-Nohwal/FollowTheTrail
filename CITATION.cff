@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "FollowTheTrail: Representation Trajectories for Generalizable Deepfake Detection"
+authors:
+  - family-names: Nohwal
+    given-names: Krishna
+  - family-names: Soni
+    given-names: Pawan
+  - family-names: Kanhangad
+    given-names: Vivek
+type: software
