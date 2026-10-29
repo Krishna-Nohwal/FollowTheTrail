@@ -7,7 +7,7 @@
 [![Transformers](https://img.shields.io/badge/Transformers-%3E%3D4.45%20%3C5-yellow)](https://huggingface.co/docs/transformers)
 [![PEFT](https://img.shields.io/badge/PEFT-0.13--0.19-blueviolet)](https://huggingface.co/docs/peft)
 [![Backbone](https://img.shields.io/badge/Backbone-DINOv3--Large-6f42c1)](https://github.com/facebookresearch/dinov3)
-[![Status](https://img.shields.io/badge/Status-Research%20Code-lightgrey)]()
+![Status](https://img.shields.io/badge/Status-Research%20Code-lightgrey)
 
 **WACV 2027 submission · Research implementation**
 
@@ -207,5 +207,4 @@ If you use this work, please cite the paper:
 ## 📄 License
 
 No license has been selected for this code yet. The authors should add their chosen license before public release.
-#   F o l l o w T h e T r a i l  
- 
+#
